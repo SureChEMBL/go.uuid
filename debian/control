@@ -1,0 +1,19 @@
+Source: golang-github-satori-go.uuid
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Peter Colberg <peter@colberg.org>
+Build-Depends: debhelper (>= 10), dh-golang (>= 1.10~), golang-any
+Standards-Version: 3.9.8
+Homepage: https://github.com/satori/go.uuid
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-satori-go.uuid.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-satori-go.uuid.git
+XS-Go-Import-Path: github.com/satori/go.uuid
+
+Package: golang-github-satori-go.uuid-dev
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Go package for creating and parsing UUID
+ This package implements Universally Unique Identifier (UUID)
+ supporting versions 1, 3, 4 and 5 (as specified in RFC 4122),
+ and version 2 (as specified in DCE 1.1).

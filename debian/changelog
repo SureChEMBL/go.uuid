@@ -1,0 +1,31 @@
+golang-github-satori-go.uuid (1.1.0-3) unstable; urgency=medium
+
+  * Bump debhelper compat level to 10
+  * Build-depend on golang-any instead of golang-go
+  * Drop dependency on golang-go from -dev package
+  * Update debian/watch to use package name for tarball
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 19 Nov 2016 23:25:19 -0500
+
+golang-github-satori-go.uuid (1.1.0-2) unstable; urgency=medium
+
+  * Remove Built-Using field from -dev package
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 24 Sep 2016 00:54:27 -0400
+
+golang-github-satori-go.uuid (1.1.0-1) unstable; urgency=medium
+
+  [ Peter Colberg ]
+  * New upstream release
+  * Update Standards-Version to 3.9.8
+
+  [ Dmitry Smirnov ]
+  * Watch file to track upstream releases
+
+ -- Peter Colberg <peter@colberg.org>  Sun, 28 Aug 2016 08:54:59 -0400
+
+golang-github-satori-go.uuid (0.0~git20160218.0.e673fdd-1) unstable; urgency=medium
+
+  * Initial release (Closes: #812213)
+
+ -- Peter Colberg <peter@colberg.org>  Tue, 08 Mar 2016 09:23:26 -0500
