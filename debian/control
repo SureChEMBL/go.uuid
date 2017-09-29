@@ -3,7 +3,7 @@ Section: devel
 Priority: extra
 Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
 Uploaders: Peter Colberg <peter@colberg.org>
-Build-Depends: debhelper (>= 10), dh-golang (>= 1.10~), golang-any
+Build-Depends: debhelper (>= 9), dh-golang (>= 1.10~), golang-any
 Standards-Version: 3.9.8
 Homepage: https://github.com/satori/go.uuid
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-satori-go.uuid.git
